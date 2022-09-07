@@ -1,0 +1,5 @@
+# Mac Wanker
+.DS_Store
+.AppleDouble
+.LSOverride
+Brewfile.lock.json
