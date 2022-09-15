@@ -38,6 +38,7 @@ cask "battlescribe"
 cask "maestral"
 cask "stand"
 cask "itsycal"
+cask "whatsapp"
 
 # mas "Microsoft To Do", id: 1274495053
 # mas "Microsoft OneNote", id: 784801555
