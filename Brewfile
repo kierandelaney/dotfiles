@@ -14,6 +14,7 @@ brew "peco"
 brew "multitail"
 brew "composer"
 brew "node"
+brew "gh"
 
 cask "font-monoid"
 cask "font-meslo-for-powerline"
