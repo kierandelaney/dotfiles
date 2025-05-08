@@ -1,51 +1,44 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/cask-fonts"
 
-brew "zlib"
-brew "httpd", restart_service: :changed
-brew "mysql@5.7", restart_service: :changed, link: true
-brew "php@8.0", restart_service: :changed, link: true
-brew "pkg-config"
-brew "imagemagick"
-brew "peco"
+# brew "zlib"
+# brew "httpd", restart_service: :changed
+# brew "mysql@5.7", restart_service: :changed, link: true
+# brew "php@8.0", restart_service: :changed, link: true
+brew "curl"
+brew "mas"
 brew "multitail"
-brew "composer"
 brew "node"
-brew "gh"
+brew "peco"
+brew "php"
+brew "python"
 
-cask "font-monoid"
-cask "font-meslo-for-powerline"
 cask "font-jetbrains-mono"
+cask "font-meslo-for-powerline"
+cask "font-monoid"
 
+cask "aerial"
+cask "discord"
+cask "iterm2"
+cask "itsycal"
+cask "keepingyouawake"
+cask "keyboardcleantool"
+cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-office"
-cask "the-unarchiver"
-cask "keepingyouawake"
-cask "visual-studio-code"
-cask "iterm2"
-cask "postman"
-cask "sourcetree"
 cask "microsoft-teams"
-cask "azure-data-studio"
-cask "aerial"
-cask "github"
-cask "microsoft-remote-desktop"
-cask "keyboardcleantool"
-cask "authy"
-cask "battlescribe"
-cask "maestral"
-cask "stand"
-cask "itsycal"
-cask "whatsapp"
-cask "discord"
 cask "radio-silence"
+cask "the-unarchiver"
+cask "thonny"
+cask "visual-studio-code"
+cask "whatsapp"
 
-# mas "Microsoft To Do", id: 1274495053
-# mas "Microsoft OneNote", id: 784801555
-# mas "GhosteryLite", id: 1436953057
-# mas "GIF Brewery 3", id: 1081413713
-# mas "Reeder", id: 1449412482
-# mas "Twitter", id: 1482454543
+mas "Amphetamine", id:937984704
+mas "GIF Brewery 3", id: 1081413713
+mas "Messenger", id:1480068668
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft To Do", id: 1274495053
+mas "MindNode", id: 1289197285
+mas "NepTunes", id: 1006739057
+mas "Windows App", id: 1295203466

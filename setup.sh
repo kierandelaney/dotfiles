@@ -124,9 +124,9 @@ fi
 echo "\n* Setting up software requirements"
 brew bundle install
 
-echo "\n* Making sure you have a debug log"
-touch "$BREWPATH"/var/log/httpd/debug_log
-chmod 666 "$BREWPATH"/var/log/httpd/debug_log
+# echo "\n* Making sure you have a debug log"
+# touch "$BREWPATH"/var/log/httpd/debug_log
+# chmod 666 "$BREWPATH"/var/log/httpd/debug_log
 
 # Remove Bad Lint Tools
 echo "\n* Checking for tools in misconfigured locations"
