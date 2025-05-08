@@ -7,6 +7,7 @@ tap "homebrew/cask-fonts"
 # brew "mysql@5.7", restart_service: :changed, link: true
 # brew "php@8.0", restart_service: :changed, link: true
 brew "curl"
+brew "gh"
 brew "mas"
 brew "multitail"
 brew "node"
