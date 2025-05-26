@@ -37,6 +37,7 @@ cask "visual-studio-code"
 cask "whatsapp"
 
 mas "Amphetamine", id:937984704
+mas "Copilot", id: 6738511300
 mas "GIF Brewery 3", id: 1081413713
 mas "Messenger", id:1480068668
 mas "Microsoft OneNote", id: 784801555
