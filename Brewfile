@@ -20,6 +20,7 @@ cask "font-meslo-for-powerline"
 cask "font-monoid"
 
 cask "aerial"
+cask "darktable"
 cask "discord"
 cask "iterm2"
 cask "itsycal"
