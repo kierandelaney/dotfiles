@@ -21,7 +21,6 @@ cask "font-monoid"
 
 cask "aerial"
 cask "calibre"
-cask "darktable"
 cask "discord"
 cask "iterm2"
 cask "itsycal"
