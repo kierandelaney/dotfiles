@@ -167,12 +167,6 @@ if [ ! -e /usr/local/bin/phpcbf ] || [ "$(/usr/local/bin/phpcbf --version)" != "
 else
   echo "\t- PHPCBF installed & up to date"
 fi
-if [ ! -e /usr/local/bin/phpcpd ] || [ "$(/usr/local/bin/phpcpd --version)" != "$(tools/phpcpd --version)" ]; then
-  sudo cp tools/phpcpd /usr/local/bin/phpcpd
-  echo "\t- Installed $(tools/phpcpd --version)"
-else
-  echo "\t- PHPCPD installed & up to date"
-fi
 
 # Ensure global stylelint and jshint
 echo "\n* Checking npm tools are installed & up to date"
