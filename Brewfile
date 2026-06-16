@@ -1,8 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "homebrew/cask-fonts"
-
-# brew "zlib"
 # brew "httpd", restart_service: :changed
 # brew "mysql@5.7", restart_service: :changed, link: true
 # brew "php@8.0", restart_service: :changed, link: true
@@ -14,6 +9,7 @@ brew "node"
 brew "peco"
 brew "php"
 brew "python"
+brew "wget"
 
 cask "font-jetbrains-mono"
 cask "font-meslo-for-powerline"
@@ -39,8 +35,6 @@ cask "whatsapp"
 
 mas "Amphetamine", id:937984704
 mas "Copilot", id: 6738511300
-mas "GIF Brewery 3", id: 1081413713
-mas "Messenger", id:1480068668
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft To Do", id: 1274495053
 mas "MindNode", id: 1289197285
